@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudoku</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <main class="center-text">
+    <h1 id="sudoku-header">Sudoku</h1>
+    <div id="info">Start by clicking on a square</div>
+    <div class="sudoku-board" id="problem-board"></div>
+  </main>
+  <div id="controls" class="center-text">
+    <button type="button" id="check-answer">Check</button>
+    <button type="button" id="show-answer">Show answer</button>
+    <button type="button" onclick="main()">Reset</button>
+  </div>
+  <div class="sudoku-board" id="solution-board"></div>
+</body>
+</html>
